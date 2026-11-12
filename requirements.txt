@@ -1,0 +1,54 @@
+
+# ==================================
+# LANGCHAIN & LCEL
+# ==================================
+langchain>=1.0,<2.0
+langchain-core>=1.0,<2.0
+langchain-openai>=1.0,<2.0
+
+# ==================================
+# MULTI-AGENT & REACT ORCHESTRATION
+# ==================================
+langgraph>=1.0,<2.0
+
+# ==================================
+# WEB SEARCH - TAVILY
+# ==================================
+langchain-tavily
+
+# ==================================
+# WEB SCRAPING - BEAUTIFULSOUP
+# ==================================
+beautifulsoup4
+requests
+httpx
+lxml
+
+# ==================================
+# ENVIRONMENT & CONFIGURATION
+# ==================================
+python-dotenv
+pydantic>=2.7,<3.0
+
+# ==================================
+# RETRIES & TOKENIZATION
+# ==================================
+tenacity
+tiktoken
+
+# ==================================
+# ASYNC SUPPORT
+# ==================================
+aiohttp
+
+# ==================================
+# API SERVER (OPTIONAL)
+# ==================================
+fastapi
+uvicorn[standard]
+
+# ==================================
+# TESTING & CODE QUALITY
+# ==================================
+pytest
+ruff
