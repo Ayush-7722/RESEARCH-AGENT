@@ -23,6 +23,8 @@ beautifulsoup4
 requests
 httpx
 lxml
+tavily-python
+langchain-groq
 
 # ==================================
 # ENVIRONMENT & CONFIGURATION
