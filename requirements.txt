@@ -52,3 +52,10 @@ uvicorn[standard]
 # ==================================
 pytest
 ruff
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langgraph
+python-dotenv
